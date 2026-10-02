@@ -8,7 +8,7 @@ export default function JsonLd() {
     "@type": ["LocalBusiness", "Store", "AgriculturalBusiness"],
     "name": "Pınarlık Doğal Gıda Ürünleri",
     "alternateName": ["Pınarlık Ceviz", "Pınarlık Doğal Ürünler", "Pinarlik Dogal Gida"],
-    "image": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://www.pinarlik.com/images/ic_ceviz_kelebek.jpg",
     "@id": "https://www.pinarlik.com/#organization",
     "url": "https://www.pinarlik.com",
     "telephone": "+905323739605",

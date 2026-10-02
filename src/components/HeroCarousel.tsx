@@ -23,7 +23,7 @@ const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Denizli Pınarlık'ın bereketli topraklarından ince kabuklu ceviz, ayıklanmış kelebek iç ceviz ve güneşte kurutulmuş doğal erik.",
     tagline: "Doğrudan Bahçemizden • Katkısız & Yerli Üretim",
     badge: "Orijinal Pınarlık Mahsulleri",
-    image: "/images/header.png",
+    image: "/images/ceviz3_l.jpg",
     primaryCtaText: "Tüm Ürünleri İncele",
     primaryCtaLink: "/urunler"
   },
@@ -33,9 +33,9 @@ const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, elle kolay kırılan dolgun cevizlerimiz ve yemeye hazır kelebek iç cevizlerimiz.",
     tagline: "100% Yerli • İlaçsız ve Kimyasalsız Geleneksel Tarım",
     badge: "2026 Yeni Sezon Ceviz Hasadı",
-    image: "/images/ceviz.jpg",
+    image: "/images/ic_ceviz_kelebek.jpg",
     primaryCtaText: "Ceviz Çeşitlerini İncele",
-    primaryCtaLink: "/urunler#kabuklu-ceviz"
+    primaryCtaLink: "/urunler#kelebek-ic-ceviz"
   },
   {
     id: 3,
@@ -43,17 +43,17 @@ const HERO_SLIDES: HeroSlide[] = [
     subtitle: "Ege güneşi altında kükürtsüz ve ilave şekersiz doğal kurutulmuş, yoğun lezzetli ve lif zengini bahçe eriklerimiz.",
     tagline: "Katkısız • Kükürtsüz (SO2 İçermez) • Şeker İlavesiz",
     badge: "Geleneksel Güneşte Kurutma",
-    image: "/images/erik.jpg",
+    image: "/images/kuru_erik_dogal.jpg",
     primaryCtaText: "Kuru Erik Detayları",
     primaryCtaLink: "/urunler#guneste-kurutulmus-erik"
   },
   {
     id: 4,
     title: "Yüksek Yaylalardan Saf Ham Petek & Süzme Bal",
-    subtitle: "Kavanozlu saf ham balımız ve doğal karakovan peteklerimiz; arılarımızın yayla çiçekleri ve çam ormanlarından derlediği saf şifa.",
-    tagline: "Ham Petek Balı • Şeker Şurubu İçermez • Arılıktan Sofraya",
-    badge: "Doğal Arılık & Petek Balı",
-    image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1920&q=85",
+    subtitle: "Doğal karakovan peteklerimiz ve kavanozlu saf ham balımız; arılarımızın yayla çiçekleri ve çam ormanlarından derlediği saf şifa.",
+    tagline: "Doğal Petek Balı • Şeker Şurubu İçermez • Arılıktan Sofraya",
+    badge: "Doğal Arılık & Karakovan Petek Balı",
+    image: "/images/honeycomb_petek.jpg",
     primaryCtaText: "Doğal Balı Keşfet",
     primaryCtaLink: "/urunler#dogal-yayla-bali"
   }

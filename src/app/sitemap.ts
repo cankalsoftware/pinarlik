@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/zaman-cizelgesi",
     "/galeri",
     "/iletisim",
+    "/indexnow",
   ];
 
   return routes.map((route) => ({

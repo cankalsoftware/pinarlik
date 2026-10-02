@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingCallBar from "@/components/FloatingCallBar";
+import ScrollToTop from "@/components/ScrollToTop";
 import JsonLd from "@/components/JsonLd";
 
 export const viewport: Viewport = {
@@ -57,10 +58,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&h=630&q=80",
+        url: "/images/ic_ceviz_kelebek.jpg",
         width: 1200,
         height: 630,
-        alt: "Pınarlık Doğal Gıda Ürünleri - Doğal Ceviz ve Kuru Erik Hasadı",
+        alt: "Pınarlık Doğal Gıda Ürünleri - Kelebek İç Ceviz ve Doğal Hasat",
       }
     ],
   },
@@ -68,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pınarlık Doğal Gıda Ürünleri | Doğal Ceviz & Kuru Erik",
     description: "Denizli Pınarlık'tan yeni sezon doğal ceviz ve güneşte kurutulmuş erik. Sipariş Hattı: 0532 373 96 05.",
-    images: ["https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1200&h=630&q=80"],
+    images: ["/images/ic_ceviz_kelebek.jpg"],
   },
   robots: {
     index: true,
@@ -127,6 +128,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <ScrollToTop />
         <FloatingCallBar />
       </body>
     </html>

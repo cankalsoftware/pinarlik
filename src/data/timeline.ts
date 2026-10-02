@@ -49,7 +49,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "upcoming",
     tag: "Özenli Paketleme",
     iconName: "PackageCheck",
-    image: "/images/ceviz.jpg"
+    image: "/images/ic_ceviz_kelebek.jpg"
   },
   {
     id: "ocak-subat",

@@ -48,8 +48,8 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["500 gr Kilitli Doypack", "1 Kg Vakumlu Paket", "5 Kg Koli"],
     storageTips: "Buzdolabında veya hava almayan cam kavanozda serin yerde muhafaza edildiğinde tazeliğini 1 yıla kadar korur.",
     images: [
-      "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=1000&q=80",
-      "/images/ceviz_l.jpg"
+      "/images/ic_ceviz_kelebek.jpg",
+      "/images/ic_ceviz_hazir.jpg"
     ],
     isFeatured: true,
     orderNotes: "Sipariş üzerine taze kırılarak hazırlandığı için lütfen önceden telefonla bilgi alınız."
@@ -101,9 +101,10 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["850 gr Cam Kavanoz", "1 Kg Cam Kavanoz", "Karakovan Doğal Petek"],
     storageTips: "Oda sıcaklığında, doğrudan güneş görmeyen yerde saklayınız. 1 yaşından küçük bebeklere bal verilmemelidir.",
     images: [
+      "/images/honeycomb_petek.jpg",
+      "/images/bal_kavanoz_ari.jpg",
       "/images/bal_l.jpg",
-      "/images/bal2_l.jpg",
-      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1000&q=80"
+      "/images/bal2_l.jpg"
     ],
     isFeatured: true,
     orderNotes: "Sınırlı üretim parti mahsulü olduğu için lütfen arayarak sipariş teyidi alınız."
@@ -153,8 +154,8 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["1 Kg Bez Torba (Tarhana)", "1 Kg Cam Şişe (Pekmez)"],
     storageTips: "Kuru ve serin yerde, doğrudan ışıktan uzakta saklayınız.",
     images: [
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
-      "/images/sera_l.jpg"
+      "/images/sera_l.jpg",
+      "/images/goji2_l.jpg"
     ],
     isFeatured: false,
     orderNotes: "Kiler ürünlerimiz sınırlı miktarda hazırlanmaktadır. Lütfen telefonla stok sorunuz."

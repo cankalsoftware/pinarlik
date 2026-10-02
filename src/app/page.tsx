@@ -57,8 +57,8 @@ export default function HomePage() {
 
               <div style={{ position: "relative", height: "280px", width: "100%" }}>
                 <Image
-                  src="/images/ceviz.jpg"
-                  alt="Pınarlık Doğal Kabuklu ve İç Ceviz"
+                  src="/images/ic_ceviz_kelebek.jpg"
+                  alt="Pınarlık Doğal Ayıklanmış Kelebek İç Ceviz ve Kabuklu Ceviz"
                   fill
                   style={{ objectFit: "cover" }}
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -70,20 +70,20 @@ export default function HomePage() {
                   Denizli Pınarlık Bahçelerinden
                 </div>
                 <h3 style={{ fontSize: "1.6rem", color: "var(--primary-900)", margin: "6px 0 12px 0" }}>
-                  Doğal Ceviz (Kabuklu & Yemeye Hazır İç Ceviz)
+                  Doğal Ceviz (Kabuklu & Yemeye Hazır Kelebek İç)
                 </h3>
                 <p style={{ color: "var(--text-muted)", fontSize: "0.95rem", lineHeight: 1.7, marginBottom: "18px" }}>
-                  Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, kolay kırılan ve yağ oranı zengin kabuklu cevizlerimiz ile el emeğiyle ayıklanmış, bembeyaz <strong>kelebek bütün iç cevizlerimiz</strong>.
+                  Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, kolay kırılan kabuklu cevizlerimiz ile el emeğiyle kabuğundan ayıklanmış, bembeyaz <strong>kelebek bütün iç cevizlerimiz</strong>.
                 </p>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px", marginBottom: "22px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span><strong>Kabuklu Seçenek:</strong> İnce kabuklu, elle dahi kırılır, dolgun randıman</span>
+                    <span><strong>Kelebek İç Seçenek:</strong> Kabuğundan ayıklanmış, tüketime hazır bütün iç</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span><strong>Kelebek İç Seçenek:</strong> Ayıklanmış, tüketime hazır, kırılmamış bütün iç</span>
+                    <span><strong>Kabuklu Seçenek:</strong> İnce kabuklu, elle dahi kırılır, dolgun randıman</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
@@ -140,7 +140,7 @@ export default function HomePage() {
 
               <div style={{ position: "relative", height: "280px", width: "100%" }}>
                 <Image
-                  src="/images/erik.jpg"
+                  src="/images/kuru_erik_dogal.jpg"
                   alt="Pınarlık Güneşte Kurutulmuş Doğal Erik"
                   fill
                   style={{ objectFit: "cover" }}

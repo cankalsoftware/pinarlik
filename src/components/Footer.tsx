@@ -196,6 +196,11 @@ export default function Footer() {
               <li>
                 <Link href="/iletisim" style={{ color: "#94a3b8", fontSize: "0.92rem" }}>İletişim & Sipariş Talebi</Link>
               </li>
+              <li>
+                <Link href="/indexnow" style={{ color: "#d4a373", fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "4px" }}>
+                  <span>IndexNow & AEO/GEO İndeksleme</span>
+                </Link>
+              </li>
             </ul>
           </div>
 

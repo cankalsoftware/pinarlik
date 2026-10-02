@@ -1,14 +1,35 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Heart, MessageCircle, ExternalLink, ArrowUpRight, X, Sparkles, CheckCircle2 } from "lucide-react";
+import { Heart, MessageCircle, ExternalLink, ArrowUpRight, X, RefreshCw, CheckCircle2 } from "lucide-react";
 import InstagramIcon from "@/components/InstagramIcon";
 import { INSTAGRAM_POSTS, INSTAGRAM_HANDLE, INSTAGRAM_PROFILE_URL } from "@/data/instagram";
 import { InstagramPost } from "@/types";
 
 export default function InstagramFeed() {
+  const [posts, setPosts] = useState<InstagramPost[]>(INSTAGRAM_POSTS);
   const [selectedPost, setSelectedPost] = useState<InstagramPost | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const fetchLatestFeed = async () => {
+    setIsLoading(true);
+    try {
+      const res = await fetch("/api/instagram");
+      const data = await res.json();
+      if (data.success && data.posts && data.posts.length > 0) {
+        setPosts(data.posts);
+      }
+    } catch (err) {
+      console.error("Instagram feed error:", err);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchLatestFeed();
+  }, []);
 
   return (
     <section className="section-padding" style={{ backgroundColor: "var(--bg-main)" }}>
@@ -17,7 +38,7 @@ export default function InstagramFeed() {
         <div className="section-header">
           <div className="badge badge-gold">
             <InstagramIcon size={14} />
-            <span>Canlı Instagram Akışı</span>
+            <span>Dinamik Canlı Instagram Akışı</span>
           </div>
           <h2 className="section-title">Bahçemizden ve Hasattan Güncel Kareler</h2>
           <p className="section-subtitle">
@@ -74,11 +95,14 @@ export default function InstagramFeed() {
             </div>
 
             <div>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
                 <h3 style={{ fontSize: "1.25rem", color: "var(--primary-900)", margin: 0 }}>
                   @{INSTAGRAM_HANDLE}
                 </h3>
                 <CheckCircle2 size={18} color="#0095f6" fill="#0095f6" stroke="#ffffff" />
+                <span style={{ fontSize: "0.75rem", backgroundColor: "var(--primary-100)", color: "var(--primary-800)", padding: "2px 8px", borderRadius: "12px", fontWeight: 700 }}>
+                  Canlı Bağlantılı
+                </span>
               </div>
               <p style={{ color: "var(--text-muted)", fontSize: "0.88rem", marginTop: "4px" }}>
                 Pınarlık Doğal Gıda Ürünleri • Denizli Tavas Doğal Köy Mahsulleri
@@ -86,21 +110,34 @@ export default function InstagramFeed() {
             </div>
           </div>
 
-          <a
-            href={INSTAGRAM_PROFILE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-            style={{
-              padding: "12px 24px",
-              background: "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
-              border: "none"
-            }}
-          >
-            <InstagramIcon size={18} color="#ffffff" />
-            <span>Instagram&apos;da Takip Et</span>
-            <ArrowUpRight size={16} />
-          </a>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            <button
+              onClick={fetchLatestFeed}
+              disabled={isLoading}
+              className="btn btn-outline"
+              style={{ padding: "10px 16px", fontSize: "0.85rem" }}
+              title="Akışı Yenile"
+            >
+              <RefreshCw size={15} className={isLoading ? "animate-spin" : ""} />
+              <span>Yenile</span>
+            </button>
+
+            <a
+              href={INSTAGRAM_PROFILE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+              style={{
+                padding: "12px 24px",
+                background: "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+                border: "none"
+              }}
+            >
+              <InstagramIcon size={18} color="#ffffff" />
+              <span>Instagram&apos;da Takip Et</span>
+              <ArrowUpRight size={16} />
+            </a>
+          </div>
         </div>
 
         {/* Posts Grid */}
@@ -111,7 +148,7 @@ export default function InstagramFeed() {
             gap: "20px"
           }}
         >
-          {INSTAGRAM_POSTS.map((post) => (
+          {posts.map((post) => (
             <div
               key={post.id}
               onClick={() => setSelectedPost(post)}
@@ -219,7 +256,7 @@ export default function InstagramFeed() {
             style={{ padding: "14px 32px" }}
           >
             <InstagramIcon size={18} />
-            <span>Tüm Paylaşımlar İçin Instagram @{INSTAGRAM_HANDLE}</span>
+            <span>Tüm Güncel Paylaşımlar İçin Instagram @{INSTAGRAM_HANDLE}</span>
           </a>
         </div>
       </div>
