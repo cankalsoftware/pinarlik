@@ -24,21 +24,21 @@ interface GalleryItem {
 const STATIC_GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g-kelebek-ceviz",
-    title: "Ayıklanmış Kelebek İç Ceviz (Yemeye Hazır)",
+    title: "Ayıklanmış Kelebek İç Ceviz & Taze Ceviz Hasadı",
     category: "ceviz",
     categoryLabel: "Kelebek İç Ceviz",
-    image: "/images/ic_ceviz_kelebek.jpg",
-    description: "El emeğiyle tek tek kırılarak kabuğundan ayrılmış, bembeyaz ve dolgun bütün kelebek iç cevizlerimiz.",
-    instagramUrl: INSTAGRAM_PROFILE_URL
+    image: "/images/ceviz_instagram_2025.jpg",
+    description: "Pınarlık bahçelerimizden taze hasat edilmiş, el emeğiyle ayıklanan bembeyaz kelebek iç cevizlerimiz.",
+    instagramUrl: "https://www.instagram.com/p/DN_Sq7qjAdA/"
   },
   {
     id: "g-kabuklu-ceviz",
-    title: "Ağaçtan Taze Silkelenmiş İnce Kabuklu Cevizler",
+    title: "Yeni Sezon Ceviz Hasadı & Ağaçlarımız",
     category: "ceviz",
     categoryLabel: "Ceviz Hasadı",
-    image: "/images/ceviz_l.jpg",
-    description: "Hasat anında yeşil kabuğundan ayrılan ve kurumaya alınan yeni sezon ince kabuklu cevizlerimiz.",
-    instagramUrl: INSTAGRAM_PROFILE_URL
+    image: "/images/ceviz_hasat_instagram_2026.jpg",
+    description: "Yeni sezon ceviz hasadı hazırlıkları; ağaçlarımızdan özenle silkilip toplanan ince kabuklu cevizlerimiz.",
+    instagramUrl: "https://www.instagram.com/p/DdQgDS1NPYL/"
   },
   {
     id: "g-ceviz-agaclari",

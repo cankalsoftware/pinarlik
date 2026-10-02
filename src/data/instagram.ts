@@ -5,6 +5,26 @@ export const INSTAGRAM_PROFILE_URL = "https://www.instagram.com/pinarlik_dogal_g
 
 export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
+    id: "post-dn_sq7qjAda",
+    caption: "2025 ceviz hasadı! 🌰 Pınarlık bahçelerimizde dalından özenle toplanan ince kabuklu yerli cevizlerimiz ve yemeye hazır ayıklanmış iç cevizlerimiz. Bilgi ve sipariş için: 0532 373 96 05 📞 #pinarlik_dogal_gida_urunleri #ceviz #2025ceviz #dogalceviz #denizli #tavas",
+    imageUrl: "/images/ceviz_instagram_2025.jpg",
+    postUrl: "https://www.instagram.com/p/DN_Sq7qjAdA/",
+    date: "Ağustos 2025",
+    likes: 340,
+    comments: 28,
+    tags: ["2025ceviz", "ceviz", "içceviz", "tavas", "denizli"]
+  },
+  {
+    id: "post-ddqgds1npyl",
+    caption: "2026 ceviz hasatına extra güç. Hazırlıklar başladı! 🌳🚜 Bereketli Pınarlık topraklarımızda yeni sezon hasadımızı karşılıyoruz. Sipariş ve bilgi: 0532 373 96 05 ✨ #cevizhasadi #2026ceviz #hasat #koyhayati #toptanceviz",
+    imageUrl: "/images/ceviz_hasat_instagram_2026.jpg",
+    postUrl: "https://www.instagram.com/p/DdQgDS1NPYL/",
+    date: "Eylül 2026",
+    likes: 412,
+    comments: 39,
+    tags: ["cevizhasadı", "2026ceviz", "hasat", "pınarlık", "denizli"]
+  },
+  {
     id: "post-kelebek-ceviz",
     caption: "El emeğiyle tek tek ayıklanan bembeyaz Kelebek İç Cevizlerimiz hazır! 🌰 Kendi bahçemizin taze kırılmış cevizlerinden hazırladığımız bütün kelebek içler; taptaze, çıtır çıtır ve yüksek yağ oranına sahip. Sipariş ve toptan/perakende fiyat bilgisi için: 0532 373 96 05 📞 #pinarlik_dogal_gida_urunleri #kelebekceviz #icceviz #tazeceviz #dogalceviz #denizli #tavas",
     imageUrl: "/images/ic_ceviz_kelebek.jpg",
@@ -13,16 +33,6 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
     likes: 486,
     comments: 62,
     tags: ["kelebekceviz", "içceviz", "yemeyehazır", "doğalüretim", "denizli"]
-  },
-  {
-    id: "post-kabuklu-hasat",
-    caption: "Pınarlık bahçelerimizde yeni sezon ceviz hasadımız başladı! 🌰 Ağaçlarımızdan özenle silkilip toplanan ince kabuklu cevizlerimiz havadar sergilerimizde doğal kurumaya alındı. Kolay kırılan, dolgun randımanlı cevizlerimiz için hemen arayın: 0532 373 96 05 📞 #hasatzamani #dogalceviz #incekabuklu #denizli #koyhayati",
-    imageUrl: "/images/ceviz_l.jpg",
-    postUrl: "https://www.instagram.com/pinarlik_dogal_gida_urunleri/",
-    date: "Ekim 2026",
-    likes: 382,
-    comments: 49,
-    tags: ["ceviz", "hasat", "incekabuklu", "tavas", "denizli"]
   },
   {
     id: "post-petek-bal",

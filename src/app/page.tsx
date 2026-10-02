@@ -57,7 +57,7 @@ export default function HomePage() {
 
               <div style={{ position: "relative", height: "280px", width: "100%" }}>
                 <Image
-                  src="/images/ic_ceviz_kelebek.jpg"
+                  src="/images/ceviz_instagram_2025.jpg"
                   alt="Pınarlık Doğal Ayıklanmış Kelebek İç Ceviz ve Kabuklu Ceviz"
                   fill
                   style={{ objectFit: "cover" }}

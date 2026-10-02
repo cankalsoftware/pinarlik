@@ -21,9 +21,11 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["5 Kg Çuval / Koli", "10 Kg Çuval", "25 Kg Toptan Çuval"],
     storageTips: "Serin, kuru ve doğrudan güneş ışığı almayan havadar bir yerde muhafaza ediniz.",
     images: [
+      "/images/ceviz_hasat_instagram_2026.jpg",
+      "/images/ceviz_instagram_2025.jpg",
       "/images/ceviz_l.jpg",
-      "/images/ceviz3_l.jpg",
-      "/images/ceviz.jpg"
+      "/images/ceviz.jpg",
+      "/images/ceviz3_l.jpg"
     ],
     isFeatured: true,
     orderNotes: "Toptan ve perakende siparişleriniz için güncel fiyat ve kargo detaylarını telefonla öğrenebilirsiniz."
@@ -48,8 +50,10 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["500 gr Kilitli Doypack", "1 Kg Vakumlu Paket", "5 Kg Koli"],
     storageTips: "Buzdolabında veya hava almayan cam kavanozda serin yerde muhafaza edildiğinde tazeliğini 1 yıla kadar korur.",
     images: [
+      "/images/ceviz_instagram_2025.jpg",
       "/images/ic_ceviz_kelebek.jpg",
-      "/images/ic_ceviz_hazir.jpg"
+      "/images/ic_ceviz_hazir.jpg",
+      "/images/ceviz_hasat_instagram_2026.jpg"
     ],
     isFeatured: true,
     orderNotes: "Sipariş üzerine taze kırılarak hazırlandığı için lütfen önceden telefonla bilgi alınız."
