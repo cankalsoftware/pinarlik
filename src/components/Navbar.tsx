@@ -157,7 +157,7 @@ export default function Navbar() {
             alignItems: "center",
             gap: "28px"
           }}
-          className="desktop-nav"
+            className="desktop-nav"
           >
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
