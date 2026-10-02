@@ -13,13 +13,13 @@ Eski AngularJS web sayfası; en güncel **Next.js (App Router)**, **TypeScript**
   - Sipariş & Bilgi Hattı: `0532 373 96 05` (Tüm ürünlerde *"Fiyat ve Sipariş İçin Arayınız"* modeli, tek tıkla arama ve WhatsApp sipariş butonu).
   - İletişim & Sipariş Formu: `bilgi@pinarlik.com` hedefli, Nodemailer SMTP destekli API rotası (`/api/contact`).
 - **Öne Çıkan Ana Ürünler:**
-  - 🌰 **Doğal Kabuklu Ceviz:** İnce kabuklu, elle kolay kırılan, dolgun içli yeni sezon yerli ceviz.
+  - 🌰 **Doğal Kabuklu Ceviz (Chetner Cinsi):** İnce kabuklu, elle kolay kırılan (easy-open), içi bembeyaz ve dolgun taze yerli ceviz.
   - 🦋 **Ayıklanmış Kelebek İç Ceviz:** El emeğiyle ayıklanmış, bembeyaz, yemeye hazır bütün iç ceviz.
-  - ☀️ **Güneşte Kurutulmuş Doğal Erik:** Kükürtsüz (SO2 içermez), ilave şekersiz geleneksel güneşte kurutma.
-  - 🍯 **Doğal Yayla & Çam Balı:** Ham, filtrelenmemiş saf köy balı.
+  - ☀️ **Güneşte Kurutulmuş Doğal Erik:** %100 güneşte ve temiz yayla havasında katkısız, şekersiz geleneksel kurutma.
+  - 🍯 **Doğal Yayla & Çam Balı:** Ham, filtrelenmemiş saf köy balı ve doğal petek balı.
   - 🍎 **Mevsimlik Mahsuller & Köy Kileri:** Dalından taze meyveler, el yapımı tarhana ve pekmez.
 - **Instagram Entegrasyonu & Fotoğraf Galerisi:**
-  - Instagram [@pinarlikdogalgida](https://www.instagram.com/pinarlikdogalgida/) canlı görsel akışı, hasat ve bahçe fotoğrafları, lightbox görsel önizleme.
+  - Instagram [@pinarlik_dogal_gida_urunleri](https://www.instagram.com/pinarlik_dogal_gida_urunleri/) canlı görsel akışı, hasat ve bahçe fotoğrafları, lightbox görsel önizleme.
 - **Bahçe & Hasat Zaman Çizelgesi (Timeline):**
   - Ağaçların ilkbahar uyanışından güneşte kurutmaya, ceviz hasadından kış bakımına kadar yıllık döngü; gelecekte Gmail/Instagram akışıyla otomatik beslenmeye hazır mimari.
 - **AEO & GEO (Answer Engine & Generative Engine Optimization):**
@@ -47,39 +47,20 @@ pnpm dev
 
 ---
 
-## ⚙️ SMTP & E-Posta Ayarları (`.env.local`)
+## 📦 Dağıtım ve Yayın (Deployment)
 
-Web sitesindeki iletişim ve sipariş formundan gelen mesajların doğrudan `bilgi@pinarlik.com` adresine düşmesi için projenin kök dizinindeki `.env.local` dosyasına e-posta sağlayıcınızın bilgilerini giriniz:
+Projeyi dağıtıma almak için:
 
-```env
-CONTACT_RECEIVER_EMAIL=bilgi@pinarlik.com
-SMTP_HOST=mail.pinarlik.com
-SMTP_PORT=587
-SMTP_USER=bilgi@pinarlik.com
-SMTP_PASS=EPOSTA_SIFRENIZ
-```
-
-> *Not:* Şifre girilmediğinde sistem hata vermez; test amacıyla form mesajlarını güvenle sunucu terminaline loglar.
-
----
-
-## 📦 GitHub ve Vercel Yayını
-
-Projeyi GitHub ve Vercel'e yüklemek için:
-
-1. **GitHub'a Gönderme:**
+1. **GitHub Repository:**
 ```bash
 git add .
 git commit -m "feat: modern Next.js TypeScript website for Pinarlik"
-git branch -M main
-git remote add origin https://github.com/KULLANICI_ADINIZ/pinarlik.git
-git push -u origin main
+git push
 ```
 
-2. **Vercel'e Dağıtım:**
-- [Vercel Dashboard](https://vercel.com/new)'a girip GitHub reponuzu seçin.
-- **Environment Variables** kısmına `.env.local` dosyasındaki değişkenleri (özellikle `SMTP_PASS` vb.) ekleyin.
-- **Deploy** butonuna tıklayın.
+2. **Vercel / Cloudflare / Node Dağıtımı:**
+- Projeyi bağlayın ve üretim derlemesini (`pnpm build`) çalıştırın.
+- Gerekli SMTP e-posta bildirim değişkenlerini dağıtım panelinizdeki ortam değişkenlerine (Environment Variables) tanımlayınız.
 
 ---
 
@@ -88,5 +69,5 @@ git push -u origin main
 - **Firma:** Pınarlık Doğal Gıda Ürünleri
 - **Telefon / Sipariş:** 0532 373 96 05
 - **E-Posta:** bilgi@pinarlik.com
-- **Instagram:** [@pinarlikdogalgida](https://www.instagram.com/pinarlikdogalgida/)
+- **Instagram:** [@pinarlik_dogal_gida_urunleri](https://www.instagram.com/pinarlik_dogal_gida_urunleri/)
 - **Konum:** Pınarlık Mahallesi, Tavas / Denizli, Türkiye
