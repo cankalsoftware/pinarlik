@@ -9,7 +9,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "completed",
     tag: "Doğal Bakım",
     iconName: "Sprout",
-    image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=600&q=80"
+    image: "/images/sera_l.jpg"
   },
   {
     id: "mayis-haziran",
@@ -19,7 +19,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "completed",
     tag: "Doğal Büyüme",
     iconName: "Droplets",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80"
+    image: "/images/ceviz3_l.jpg"
   },
   {
     id: "temmuz-agustos",
@@ -29,7 +29,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "completed",
     tag: "Güneşte Kurutma",
     iconName: "Sun",
-    image: "/images/erik.jpg"
+    image: "/images/erik3_l.jpg"
   },
   {
     id: "eylul-ekim",
@@ -39,7 +39,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "active",
     tag: "Ana Hasat",
     iconName: "TreePine",
-    image: "/images/ceviz.jpg"
+    image: "/images/ceviz_l.jpg"
   },
   {
     id: "kasim-aralik",
@@ -49,7 +49,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "upcoming",
     tag: "Özenli Paketleme",
     iconName: "PackageCheck",
-    image: "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=600&q=80"
+    image: "/images/ceviz.jpg"
   },
   {
     id: "ocak-subat",
@@ -59,6 +59,6 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "upcoming",
     tag: "Bahçe Hazırlığı",
     iconName: "Scissors",
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80"
+    image: "/images/erik2_l.jpg"
   }
 ];

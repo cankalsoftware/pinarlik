@@ -21,9 +21,9 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["5 Kg Çuval / Koli", "10 Kg Çuval", "25 Kg Toptan Çuval"],
     storageTips: "Serin, kuru ve doğrudan güneş ışığı almayan havadar bir yerde muhafaza ediniz.",
     images: [
-      "/images/ceviz.jpg",
-      "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=1000&q=80"
+      "/images/ceviz_l.jpg",
+      "/images/ceviz3_l.jpg",
+      "/images/ceviz.jpg"
     ],
     isFeatured: true,
     orderNotes: "Toptan ve perakende siparişleriniz için güncel fiyat ve kargo detaylarını telefonla öğrenebilirsiniz."
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     storageTips: "Buzdolabında veya hava almayan cam kavanozda serin yerde muhafaza edildiğinde tazeliğini 1 yıla kadar korur.",
     images: [
       "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=1000&q=80",
-      "/images/ceviz.jpg"
+      "/images/ceviz_l.jpg"
     ],
     isFeatured: true,
     orderNotes: "Sipariş üzerine taze kırılarak hazırlandığı için lütfen önceden telefonla bilgi alınız."
@@ -75,8 +75,8 @@ export const PRODUCTS: Product[] = [
     storageTips: "Serin, rutubetsiz ortamda bez torbada veya cam kavanozda saklayınız.",
     images: [
       "/images/erik.jpg",
-      "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80"
+      "/images/erik3_l.jpg",
+      "/images/erik2_l.jpg"
     ],
     isFeatured: true,
     orderNotes: "Doğal kurutma olduğu için stok durumuna göre telefonla güncel bilgi alınız."
@@ -101,9 +101,9 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["850 gr Cam Kavanoz", "1 Kg Cam Kavanoz", "Karakovan Doğal Petek"],
     storageTips: "Oda sıcaklığında, doğrudan güneş görmeyen yerde saklayınız. 1 yaşından küçük bebeklere bal verilmemelidir.",
     images: [
-      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1471943311424-646960669fbc?auto=format&fit=crop&w=1000&q=80"
+      "/images/bal_l.jpg",
+      "/images/bal2_l.jpg",
+      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1000&q=80"
     ],
     isFeatured: true,
     orderNotes: "Sınırlı üretim parti mahsulü olduğu için lütfen arayarak sipariş teyidi alınız."
@@ -111,24 +111,25 @@ export const PRODUCTS: Product[] = [
   {
     id: "mevsimlik-meyve-sebze",
     slug: "bahceden-taze-mevsimlik-meyve-ve-sebzeler",
-    name: "Dalından Taze Erik & Mevsim Meyveleri",
+    name: "Doğal Sera & Mevsimlik Taze Mahsuller",
     category: "mevsimlik",
     categoryLabel: "Mevsimlik Mahsuller",
-    badge: "Dalından Taze Toplama",
-    shortDescription: "Mevsiminde bahçemizden taze toplanan tatlı mor erikler, elma, incir ve taze köy mahsulleri.",
-    fullDescription: "Pınarlık'taki bahçemizde doğanın ritmine saygıyla yetiştirdiğimiz taze meyvelerimiz. Ağacında güneşle olgunlaşan sulu mor erikler, kokulu köy elmaları ve incirler sezonunda taze toplanarak aynı gün gönderilir.",
+    badge: "Doğal Sera & Dalından",
+    shortDescription: "Pınarlık seramızdan ve bahçemizden mevsimine göre taze toplanan domates, biber, meyveler ve goji berry.",
+    fullDescription: "Pınarlık'taki doğal seramızda ve bahçemizde kimyasal ilaçlama yapılmadan, temiz yayla suları ile yetiştirdiğimiz taze mahsullerimiz ve meyvelerimiz. Sezonunda taze toplanarak doğrudan gönderilir.",
     features: [
-      "Mevsiminde dalında olgunlaşmış taze mor erik ve meyveler",
-      "Hormonsuz ve doğal yöntemlerle üretim",
+      "Doğal serada ve açık bahçede yetiştirilen taze ürünler",
+      "Hormonsuz ve kimyasal ilaçsız üretim",
       "Toplandığı gün tazeliğinde sevkiyat",
       "Geleneksel köy bahçesi lezzeti"
     ],
-    harvestTime: "Yaz ve Sonbahar Dönemleri",
+    harvestTime: "İlkbahar, Yaz ve Sonbahar Dönemleri",
     packagingTypes: ["Özel Havalandırmalı Kasa / Koli (5 Kg - 10 Kg)"],
     storageTips: "Tazeliğini korumak için serin ortamda muhafaza ediniz.",
     images: [
-      "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=1000&q=80"
+      "/images/sera_l.jpg",
+      "/images/goji2_l.jpg",
+      "/images/erik2_l.jpg"
     ],
     isFeatured: false,
     orderNotes: "Mevsimlik mahsuller dönemsel olarak değişmektedir. Güncel haftalık hasat için arayınız."
@@ -153,7 +154,7 @@ export const PRODUCTS: Product[] = [
     storageTips: "Kuru ve serin yerde, doğrudan ışıktan uzakta saklayınız.",
     images: [
       "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?auto=format&fit=crop&w=1000&q=80"
+      "/images/sera_l.jpg"
     ],
     isFeatured: false,
     orderNotes: "Kiler ürünlerimiz sınırlı miktarda hazırlanmaktadır. Lütfen telefonla stok sorunuz."

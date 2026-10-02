@@ -46,7 +46,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "faq-8",
     question: "Instagram sayfanızdaki güncel hasat ve paylaşımları nasıl takip edebilirim?",
-    answer: "Instagram'da @pinarlikdogalgida sayfamızı takip ederek bahçemizdeki günlük çalışmalarımızı, hasat süreçlerimizi ve yeni çıkan mevsimlik ürünlerimizi anlık olarak izleyebilirsiniz.",
+    answer: "Instagram'da @pinarlik_dogal_gida_urunleri sayfamızı takip ederek bahçemizdeki günlük çalışmalarımızı, hasat süreçlerimizi ve yeni çıkan mevsimlik ürünlerimizi anlık olarak izleyebilirsiniz.",
     category: "urunler"
   }
 ];

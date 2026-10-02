@@ -88,7 +88,7 @@ export default function Navbar() {
               }}
             >
               <InstagramIcon size={13} />
-              <span>@pinarlikdogalgida</span>
+              <span>@pinarlik_dogal_gida_urunleri</span>
             </a>
           </div>
         </div>

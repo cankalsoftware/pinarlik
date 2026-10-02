@@ -36,7 +36,7 @@ export default function JsonLd() {
       }
     ],
     "sameAs": [
-      "https://www.instagram.com/pinarlikdogalgida/"
+      "https://www.instagram.com/pinarlik_dogal_gida_urunleri/"
     ],
     "description": "Denizli Pınarlık'tan taze hasat ince kabuklu doğal ceviz, ayıklanmış kelebek iç ceviz, güneşte kurutulmuş erik, doğal bal ve mevsimlik taze mahsuller.",
     "founder": {

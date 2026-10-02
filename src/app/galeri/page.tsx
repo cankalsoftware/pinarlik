@@ -22,48 +22,72 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Ağaçtan Taze Silkelenmiş Kabuklu Cevizler",
     category: "ceviz",
     categoryLabel: "Ceviz Hasadı",
-    image: "/images/ceviz.jpg",
+    image: "/images/ceviz_l.jpg",
     description: "Hasat anında yeşil kabuğundan ayrılan ve kurumaya alınan yeni sezon kabuklu cevizlerimiz."
   },
   {
     id: "g2",
-    title: "El Emeğiyle Ayıklanan Kelebek İç Ceviz",
+    title: "Pınarlık Ceviz Bahçemiz ve Ağaçlarımız",
     category: "ceviz",
-    categoryLabel: "Ceviz İşleme",
-    image: "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=1000&q=80",
-    description: "Kırılmadan tek parça kelebek formunda ayıklanmış, taze ve açık renkli iç cevizlerimiz."
+    categoryLabel: "Ceviz Ağaçları",
+    image: "/images/ceviz3_l.jpg",
+    description: "Denizli Pınarlık'ta temiz dağ havası ve kaynak sularıyla beslenen ceviz ağaçlarımız."
   },
   {
     id: "g3",
-    title: "Ege Güneşinde Doğal Kuruyan Erikler",
+    title: "Ege Güneşinde Doğal Kuruyan Kuru Erikler",
     category: "erik",
-    categoryLabel: "Kuru Erik & Meyve",
+    categoryLabel: "Güneşte Kurutma",
     image: "/images/erik.jpg",
     description: "Kükürtsüz ve katkısız olarak yayla rüzgarında kurutulan doğal koyu eriklerimiz."
   },
   {
     id: "g4",
-    title: "Yayla Arılığımız ve Doğal Bal Hasadı",
-    category: "bal",
-    categoryLabel: "Bal & Arılık",
-    image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1000&q=80",
-    description: "Yüksek rakımlı çiçek florasından sağılan saf, ham petek ve süzme balımız."
+    title: "Erik Bahçemiz ve Taze Hasat Anı",
+    category: "erik",
+    categoryLabel: "Erik Hasadı",
+    image: "/images/erik2_l.jpg",
+    description: "Tam olgunluğunda dalından özenle toplanan tatlı bahçe eriklerimiz."
   },
   {
     id: "g5",
-    title: "Pınarlık Bahçelerimizin Genel Görünümü",
-    category: "bahce",
-    categoryLabel: "Bahçe & Yaşam",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1000&q=80",
-    description: "Dağların eteğinde, temiz hava ve bol güneşle beslenen organik tarım arazimiz."
+    title: "Güneşte Kurutma Sergisi",
+    category: "erik",
+    categoryLabel: "Doğal Sergiler",
+    image: "/images/erik3_l.jpg",
+    description: "Eriklerimizin hiçbir kimyasal koruyucu olmadan güneş altında kurumaya bırakıldığı sergilerimiz."
   },
   {
     id: "g6",
-    title: "Dalından Taze Toplanan Bahçe Erikleri & Meyveleri",
+    title: "Yayla Çiçek ve Çam Balımız",
+    category: "bal",
+    categoryLabel: "Doğal Bal",
+    image: "/images/bal_l.jpg",
+    description: "Yüksek rakımlı yayla florasından sağılan saf, ısıtılmamış ham balımız."
+  },
+  {
+    id: "g7",
+    title: "Doğal Ham Petek Balı",
+    category: "bal",
+    categoryLabel: "Petek Balı",
+    image: "/images/bal2_l.jpg",
+    description: "Arılarımızın saf peteğiyle kavanozlanan şifalı doğal petek balımız."
+  },
+  {
+    id: "g8",
+    title: "Pınarlık Doğal Seramız ve Sebzelerimiz",
     category: "bahce",
-    categoryLabel: "Taze Erik & Meyve",
-    image: "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1000&q=80",
-    description: "Ağacında güneşle olgunlaşan tatlı mor eriklerimiz ve mevsimlik bahçe meyvelerimiz."
+    categoryLabel: "Doğal Sera",
+    image: "/images/sera_l.jpg",
+    description: "İlaçsız ve hormonsuz tarımla yetiştirdiğimiz mevsimlik taze sebzelerimiz."
+  },
+  {
+    id: "g9",
+    title: "Bahçemizin Taze Meyveleri ve Goji Berry",
+    category: "bahce",
+    categoryLabel: "Bahçe Meyveleri",
+    image: "/images/goji2_l.jpg",
+    description: "Pınarlık bahçemizde doğanın ritmiyle yetişen zengin vitaminli meyvelerimiz."
   }
 ];
 
@@ -93,7 +117,7 @@ export default function GalleryPage() {
             Bahçemizden Kareler & Hasat Anları
           </h1>
           <p style={{ color: "#cbd5e1", fontSize: "1.05rem", lineHeight: 1.7 }}>
-            Pınarlık&apos;ta ceviz ağaçlarımızın gelişiminden hasat coşkusuna, güneşte erik kurutmadan el ile ceviz ayıklamaya kadar tüm anlarımızı fotoğraflarla keşfedin.
+            Pınarlık&apos;ta ceviz ağaçlarımızın gelişiminden hasat coşkusuna, güneşte erik kurutmadan yayla arılığına kadar tüm anlarımızı fotoğraflarla keşfedin.
           </p>
 
           <div style={{ marginTop: "24px" }}>
@@ -126,10 +150,10 @@ export default function GalleryPage() {
           }}>
             {[
               { id: "all", label: "Tüm Fotoğraflar" },
-              { id: "ceviz", label: "🌰 Ceviz Hasadı & Kırım" },
+              { id: "ceviz", label: "🌰 Ceviz Bahçesi & Hasat" },
               { id: "erik", label: "☀️ Kuru Erik & Güneş Kurutma" },
-              { id: "bal", label: "🍯 Doğal Bal & Arılık" },
-              { id: "bahce", label: "🌿 Bahçe & Köy Yaşamı" },
+              { id: "bal", label: "🍯 Doğal Bal & Petek" },
+              { id: "bahce", label: "🌿 Sera & Bahçe Yaşamı" },
             ].map((tab) => {
               const isActive = activeTab === tab.id;
               return (
@@ -242,6 +266,7 @@ export default function GalleryPage() {
               >
                 <button
                   onClick={() => setSelectedPhoto(null)}
+                  aria-label="Kapat"
                   style={{
                     position: "absolute",
                     top: "14px",
@@ -283,17 +308,17 @@ export default function GalleryPage() {
                   <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                     <a href="tel:05323739605" className="btn btn-primary" style={{ padding: "10px 20px" }}>
                       <Phone size={16} />
-                      <span>Bu Ürünü Sipariş Ver (0532 373 96 05)</span>
+                      <span>Sipariş & Bilgi (0532 373 96 05)</span>
                     </a>
                     <a
-                      href="https://wa.me/905323739605"
+                      href={INSTAGRAM_PROFILE_URL}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-whatsapp"
+                      className="btn btn-outline"
                       style={{ padding: "10px 20px" }}
                     >
-                      <MessageCircle size={16} />
-                      <span>WhatsApp Bilgi</span>
+                      <InstagramIcon size={16} />
+                      <span>Instagram&apos;da Gör</span>
                     </a>
                   </div>
                 </div>

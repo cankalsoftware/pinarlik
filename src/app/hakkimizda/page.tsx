@@ -92,7 +92,7 @@ export default function AboutPage() {
                 boxShadow: "var(--shadow-lg)"
               }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1000&q=80"
+                  src="/images/sera_l.jpg"
                   alt="Pınarlık Bahçemiz ve Tarım Alanı"
                   fill
                   style={{ objectFit: "cover" }}
