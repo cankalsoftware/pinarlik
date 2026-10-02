@@ -29,7 +29,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "completed",
     tag: "Güneşte Kurutma",
     iconName: "Sun",
-    image: "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=600&q=80"
+    image: "/images/erik.jpg"
   },
   {
     id: "eylul-ekim",
@@ -39,7 +39,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     status: "active",
     tag: "Ana Hasat",
     iconName: "TreePine",
-    image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=600&q=80"
+    image: "/images/ceviz.jpg"
   },
   {
     id: "kasim-aralik",

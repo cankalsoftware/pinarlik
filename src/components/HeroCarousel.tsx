@@ -19,30 +19,40 @@ interface HeroSlide {
 const HERO_SLIDES: HeroSlide[] = [
   {
     id: 1,
-    title: "Denizli Pınarlık'tan Sofranıza Doğal Lezzet",
-    subtitle: "Yeni sezon taze hasat ince kabuklu cevizlerimiz ve yemeye hazır kelebek iç cevizlerimiz dalından toplandı.",
+    title: "Pınarlık Doğal Gıda Ürünleri",
+    subtitle: "Denizli Pınarlık'ın bereketli topraklarından ince kabuklu ceviz, ayıklanmış kelebek iç ceviz ve güneşte kurutulmuş doğal erik.",
+    tagline: "Doğrudan Bahçemizden • Katkısız & Yerli Üretim",
+    badge: "Orijinal Pınarlık Mahsulleri",
+    image: "/images/header.png",
+    primaryCtaText: "Tüm Ürünleri İncele",
+    primaryCtaLink: "/urunler"
+  },
+  {
+    id: 2,
+    title: "Yeni Sezon Doğal İnce Kabuklu & İç Ceviz",
+    subtitle: "Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, elle kolay kırılan dolgun cevizlerimiz ve yemeye hazır kelebek iç cevizlerimiz.",
     tagline: "100% Yerli • İlaçsız ve Kimyasalsız Geleneksel Tarım",
-    badge: "2026 Yeni Sezon Hasadı",
-    image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1920&q=85",
+    badge: "2026 Yeni Sezon Ceviz Hasadı",
+    image: "/images/ceviz.jpg",
     primaryCtaText: "Ceviz Çeşitlerini İncele",
     primaryCtaLink: "/urunler#kabuklu-ceviz"
   },
   {
-    id: 2,
-    title: "Güneşte Kurutulmuş Katkısız Kuru Erik",
-    subtitle: "Ege güneşi altında kükürtsüz ve ilave şekersiz doğal kurutulmuş, yoğun lezzetli bahçe eriklerimiz.",
-    tagline: "Katkısız • Kükürtsüz • Şeker İlavesiz",
+    id: 3,
+    title: "Güneşte Kurutulmuş Katkısız Doğal Erik",
+    subtitle: "Ege güneşi altında kükürtsüz ve ilave şekersiz doğal kurutulmuş, yoğun lezzetli ve lif zengini bahçe eriklerimiz.",
+    tagline: "Katkısız • Kükürtsüz (SO2 İçermez) • Şeker İlavesiz",
     badge: "Geleneksel Güneşte Kurutma",
-    image: "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=1920&q=85",
-    primaryCtaText: "Kuru Erik & Meyveler",
+    image: "/images/erik.jpg",
+    primaryCtaText: "Kuru Erik Detayları",
     primaryCtaLink: "/urunler#guneste-kurutulmus-erik"
   },
   {
-    id: 3,
-    title: "Yüksek Yaylalardan Saf Ham Çam & Yayla Balı",
-    subtitle: "Isıl işlem görmemiş, zengin polen ve enzim içeriğiyle hakiki doğa şifası kavanozlarımızda.",
-    tagline: "Ham Bal • Şeker Şurubu İçermez",
-    badge: "Doğal Arı Ürünleri",
+    id: 4,
+    title: "Yüksek Yaylalardan Saf Ham Petek & Süzme Bal",
+    subtitle: "Kavanozlu saf ham balımız ve doğal karakovan peteklerimiz; arılarımızın yayla çiçekleri ve çam ormanlarından derlediği saf şifa.",
+    tagline: "Ham Petek Balı • Şeker Şurubu İçermez • Arılıktan Sofraya",
+    badge: "Doğal Arılık & Petek Balı",
     image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1920&q=85",
     primaryCtaText: "Doğal Balı Keşfet",
     primaryCtaLink: "/urunler#dogal-yayla-bali"
@@ -108,9 +118,9 @@ export default function HeroCarousel() {
 
       {/* Main Content Area */}
       <div className="container" style={{ position: "relative", zIndex: 2, padding: "80px 20px" }}>
-        <div style={{ maxWidth: "780px" }}>
+        <div style={{ maxWidth: "800px" }}>
           {/* Badge */}
-          <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginBottom: "18px" }}>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", marginBottom: "18px", flexWrap: "wrap" }}>
             <span
               style={{
                 backgroundColor: "rgba(212, 163, 115, 0.25)",
@@ -224,6 +234,10 @@ export default function HeroCarousel() {
             <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
               <ShieldCheck size={18} color="#52b788" />
               <span>Kükürtsüz Güneşte Kurutma</span>
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+              <ShieldCheck size={18} color="#52b788" />
+              <span>Ham Petek & Yayla Balı</span>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
     category: "ceviz",
     categoryLabel: "Ceviz Çeşitleri",
     badge: "En Çok Tercih Edilen",
-    shortDescription: "Denizli Pınarlık bahçelerimizden taze hasat, ince kabuklu, dolgun ve yağ oranı yüksek yerli ceviz.",
+    shortDescription: "Denizli Pınarlık bahçelerimizden yeni sezon taze hasat, ince kabuklu, dolgun ve yağ oranı yüksek yerli ceviz.",
     fullDescription: "Pınarlık'ın bereketli topraklarında, bol güneş ve temiz yayla havasıyla yetişen yerli cevizlerimiz; kimyasal gübre ve koruyucu madde kullanılmadan yetiştirilir. İnce kabuklu yapısı sayesinde elle dahi kolayca kırılır. İç doluluk oranı %90'ın üzerindedir. Hasat sonrası doğal gölgede ve havadar sergilerde kurutularak tazeliğini uzun süre muhafaza etmesi sağlanır.",
     features: [
       "Yeni sezon taze hasat",
@@ -21,8 +21,8 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["5 Kg Çuval / Koli", "10 Kg Çuval", "25 Kg Toptan Çuval"],
     storageTips: "Serin, kuru ve doğrudan güneş ışığı almayan havadar bir yerde muhafaza ediniz.",
     images: [
+      "/images/ceviz.jpg",
       "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=1000&q=80"
     ],
     isFeatured: true,
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     storageTips: "Buzdolabında veya hava almayan cam kavanozda serin yerde muhafaza edildiğinde tazeliğini 1 yıla kadar korur.",
     images: [
       "https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1000&q=80"
+      "/images/ceviz.jpg"
     ],
     isFeatured: true,
     orderNotes: "Sipariş üzerine taze kırılarak hazırlandığı için lütfen önceden telefonla bilgi alınız."
@@ -57,23 +57,24 @@ export const PRODUCTS: Product[] = [
   {
     id: "guneste-kurutulmus-erik",
     slug: "guneste-kurutulmus-dogal-kuru-erik",
-    name: "Güneşte Kurutulmuş Doğal Erik",
+    name: "Güneşte Kurutulmuş Doğal Kuru Erik",
     category: "kuru-meyve",
     categoryLabel: "Kurutulmuş Meyveler",
-    badge: "Katkısız & Şekersiz",
-    shortDescription: "Geleneksel yöntemlerle, Ege güneşinde ağır ağır kurutulmuş, kükürtsüz ve şeker ilavesiz kuru erik.",
+    badge: "Katkısız & Kükürtsüz",
+    shortDescription: "Geleneksel yöntemlerle, Ege güneşi altında kükürtsüz ve ilave şekersiz doğal kurutulmuş erik.",
     fullDescription: "Pınarlık bahçelerimizdeki erik ağaçlarından tam olgunluk döneminde toplanan erikler, hiçbir kimyasal kükürtleme veya koruyucu maddeye maruz bırakılmadan, yalnızca temiz dağ havası ve doğal güneş ışığında sergilerde kurutulur. Kendi meyve şekeri ve zengin aromasıyla sindirim dostu, yoğun antioksidan ve mineral kaynağı eşsiz bir lezzettir.",
     features: [
       "100% Güneşte doğal kurutma",
       "Kükürt (SO2) ve koruyucu madde içermez",
       "İlave şeker veya tatlandırıcı yok",
       "Yüksek lif ve demir oranıyla sindirimi destekler",
-      "Hoşaf, komposto ve ara öğünler için ideal"
+      "Hoşaf, komposto ve sağlıklı atıştırmalık için ideal"
     ],
     harvestTime: "Ağustos - Eylül Hasadı",
     packagingTypes: ["500 gr Paket", "1 Kg Paket", "5 Kg Koli"],
     storageTips: "Serin, rutubetsiz ortamda bez torbada veya cam kavanozda saklayınız.",
     images: [
+      "/images/erik.jpg",
       "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80"
     ],
@@ -83,25 +84,26 @@ export const PRODUCTS: Product[] = [
   {
     id: "dogal-yayla-bali",
     slug: "saf-dogal-yayla-ve-cam-bali",
-    name: "Doğal Yayla ve Çam Balı",
+    name: "Doğal Ham Bal & Petek Balı",
     category: "bal",
-    categoryLabel: "Doğal Bal & Arı Ürünleri",
-    badge: "Ham & Filtresiz",
-    shortDescription: "Denizli yaylalarının zengin çiçek florasından ve çam ormanlarından sağılmış, ısıtılmamış saf ham bal.",
-    fullDescription: "Arılarımızın Denizli'nin yüksek rakımlı yaylalarındaki kekik, adaçayı, geven ve çam ormanlarından topladığı nektarlarla ürettiği %100 saf balımız. Hiçbir şeker şurubu takviyesi yapılmadan, pastörizasyon ve yüksek ısı uygulanmadan petekten süzülerek kavanozlanır. Enzimleri ve besin değerleri bütünüyle korunmuştur.",
+    categoryLabel: "Doğal Bal & Arılık",
+    badge: "Ham Petek & Kavanoz Bal",
+    shortDescription: "Yüksek rakımlı yayla çiçekleri ve çam ormanlarından sağılmış, petekli ve kavanozlu saf ham bal.",
+    fullDescription: "Arılarımızın Denizli'nin yüksek rakımlı yaylalarındaki kekik, adaçayı, geven ve çam ormanlarından topladığı nektarlarla ürettiği %100 saf balımız. Hiçbir şeker şurubu takviyesi yapılmadan, pastörizasyon ve yüksek ısı uygulanmadan petekten süzülerek veya doğrudan doğal peteğiyle kavanozlanır. Enzimleri, poleni ve besin değerleri bütünüyle korunmuştur.",
     features: [
-      "Ham (Raw) ve filtrelenmemiş saf bal",
+      "Ham (Raw) ve filtrelenmemiş saf petek & kavanoz balı",
       "Şeker şurubu veya glikoz kesinlikle içermez",
-      "Zengin polen, enzim ve mineral içeriği",
+      "Zengin doğal polen, enzim ve mineral içeriği",
       "Doğal kristalize olabilen hakiki köy balı",
       "Kahvaltılık ve bağışıklık desteği"
     ],
     harvestTime: "Yaz ve Sonbahar Sağımları",
-    packagingTypes: ["850 gr Cam Kavanoz", "1 Kg Cam Kavanoz", "Karakovan Petek"],
+    packagingTypes: ["850 gr Cam Kavanoz", "1 Kg Cam Kavanoz", "Karakovan Doğal Petek"],
     storageTips: "Oda sıcaklığında, doğrudan güneş görmeyen yerde saklayınız. 1 yaşından küçük bebeklere bal verilmemelidir.",
     images: [
       "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1471943311424-646960669fbc?auto=format&fit=crop&w=1000&q=80"
     ],
     isFeatured: true,
     orderNotes: "Sınırlı üretim parti mahsulü olduğu için lütfen arayarak sipariş teyidi alınız."
@@ -109,24 +111,24 @@ export const PRODUCTS: Product[] = [
   {
     id: "mevsimlik-meyve-sebze",
     slug: "bahceden-taze-mevsimlik-meyve-ve-sebzeler",
-    name: "Bahçeden Taze Mevsimlik Meyve & Sebzeler",
+    name: "Dalından Taze Erik & Mevsim Meyveleri",
     category: "mevsimlik",
     categoryLabel: "Mevsimlik Mahsuller",
-    badge: "Dalından Sofraya",
-    shortDescription: "Mevsimine göre bahçemizden taze toplanan elma, incir, üzüm, domates, biber ve taze köy mahsulleri.",
-    fullDescription: "Pınarlık'taki bahçemizde doğanın ritmine saygıyla yetiştirdiğimiz meyve ve sebzeler. Sezonuna göre taze toplanarak aynı gün kargoya verilir veya yerinden teslim edilir. Ağacında olgunlaşmış sulu elmalar, tatlı incirler, kokulu köy üzümleri ve doğal tarla domatesleri.",
+    badge: "Dalından Taze Toplama",
+    shortDescription: "Mevsiminde bahçemizden taze toplanan tatlı mor erikler, elma, incir ve taze köy mahsulleri.",
+    fullDescription: "Pınarlık'taki bahçemizde doğanın ritmine saygıyla yetiştirdiğimiz taze meyvelerimiz. Ağacında güneşle olgunlaşan sulu mor erikler, kokulu köy elmaları ve incirler sezonunda taze toplanarak aynı gün gönderilir.",
     features: [
-      "Mevsiminde, dalında güneşle olgunlaşmış",
+      "Mevsiminde dalında olgunlaşmış taze mor erik ve meyveler",
       "Hormonsuz ve doğal yöntemlerle üretim",
       "Toplandığı gün tazeliğinde sevkiyat",
-      "Yerli tohumlardan geleneksel lezzet"
+      "Geleneksel köy bahçesi lezzeti"
     ],
-    harvestTime: "İlkbahar, Yaz ve Sonbahar Dönemleri",
+    harvestTime: "Yaz ve Sonbahar Dönemleri",
     packagingTypes: ["Özel Havalandırmalı Kasa / Koli (5 Kg - 10 Kg)"],
     storageTips: "Tazeliğini korumak için serin ortamda muhafaza ediniz.",
     images: [
-      "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1000&q=80"
+      "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=1000&q=80"
     ],
     isFeatured: false,
     orderNotes: "Mevsimlik mahsuller dönemsel olarak değişmektedir. Güncel haftalık hasat için arayınız."

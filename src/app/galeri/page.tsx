@@ -22,7 +22,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Ağaçtan Taze Silkelenmiş Kabuklu Cevizler",
     category: "ceviz",
     categoryLabel: "Ceviz Hasadı",
-    image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/ceviz.jpg",
     description: "Hasat anında yeşil kabuğundan ayrılan ve kurumaya alınan yeni sezon kabuklu cevizlerimiz."
   },
   {
@@ -38,7 +38,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     title: "Ege Güneşinde Doğal Kuruyan Erikler",
     category: "erik",
     categoryLabel: "Kuru Erik & Meyve",
-    image: "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/erik.jpg",
     description: "Kükürtsüz ve katkısız olarak yayla rüzgarında kurutulan doğal koyu eriklerimiz."
   },
   {
@@ -59,11 +59,11 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "g6",
-    title: "Dalından Taze Toplanan Bahçe Mahsulleri",
+    title: "Dalından Taze Toplanan Bahçe Erikleri & Meyveleri",
     category: "bahce",
-    categoryLabel: "Mevsimlik Mahsul",
-    image: "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=1000&q=80",
-    description: "Mevsimine göre ağacında olgunlaşan taze meyvelerimiz."
+    categoryLabel: "Taze Erik & Meyve",
+    image: "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1000&q=80",
+    description: "Ağacında güneşle olgunlaşan tatlı mor eriklerimiz ve mevsimlik bahçe meyvelerimiz."
   }
 ];
 

@@ -57,7 +57,7 @@ export default function HomePage() {
 
               <div style={{ position: "relative", height: "280px", width: "100%" }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80"
+                  src="/images/ceviz.jpg"
                   alt="Pınarlık Doğal Kabuklu ve İç Ceviz"
                   fill
                   style={{ objectFit: "cover" }}
@@ -140,7 +140,7 @@ export default function HomePage() {
 
               <div style={{ position: "relative", height: "280px", width: "100%" }}>
                 <Image
-                  src="https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=800&q=80"
+                  src="/images/erik.jpg"
                   alt="Pınarlık Güneşte Kurutulmuş Doğal Erik"
                   fill
                   style={{ objectFit: "cover" }}

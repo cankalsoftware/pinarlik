@@ -7,7 +7,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: "post-1",
     caption: "Pınarlık bahçelerimizde yeni sezon ceviz hasadımız başladı! 🌰 Ağaçlarımızdan özenle silkilip toplanan kabuklu cevizlerimiz havadar sergilerimizde doğal kurumaya alındı. Taze ceviz lezzetini kaçırmayın. Sipariş ve bilgi için: 0532 373 96 05 📞 #pinarlikdogalgida #hasatzamani #dogalceviz #denizli #koyhayati",
-    imageUrl: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/ceviz.jpg",
     postUrl: "https://www.instagram.com/pinarlikdogalgida/",
     date: "Ekim 2026",
     likes: 248,
@@ -27,7 +27,7 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: "post-3",
     caption: "Kükürtsüz, katkısız, güneşte ağır ağır kuruyan doğal eriklerimiz! ☀️ Eriklerimizin o koyu mor rengi ve yoğun lezzeti tamamen doğanın hediyesi. Katkısız kış hazırlığı için hemen arayın: 0532 373 96 05 🍇 #kuruerik #gunestekurutma #sekersiz #antioksidan #pinarlik",
-    imageUrl: "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/images/erik.jpg",
     postUrl: "https://www.instagram.com/pinarlikdogalgida/",
     date: "Eylül 2026",
     likes: 312,
@@ -36,23 +36,23 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   },
   {
     id: "post-4",
-    caption: "Yayla çiçeklerimizin ve çam ormanlarımızın şifası kavanozlandı. 🍯 Isıl işlem görmemiş, saf ham balımızla kahvaltılarınıza doğallık getirin. Detaylı bilgi için: 0532 373 96 05 🐝 #dogalbal #yaylabali #cambali #safbal #arilik",
+    caption: "Yayla çiçeklerimizin ve çam ormanlarımızın şifası kavanozlandı ve peteklendi. 🍯 Isıl işlem görmemiş, saf ham petek ve süzme balımızla kahvaltılarınıza doğallık getirin. Detaylı bilgi için: 0532 373 96 05 🐝 #dogalbal #yaylabali #petekbal #cambali #safbal #arilik",
     imageUrl: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
     postUrl: "https://www.instagram.com/pinarlikdogalgida/",
     date: "Ağustos 2026",
     likes: 276,
     comments: 29,
-    tags: ["bal", "yayla", "şifa", "doğalyaşam"]
+    tags: ["bal", "petekbalı", "yayla", "şifa", "doğalyaşam"]
   },
   {
     id: "post-5",
-    caption: "Bahçemizde sabahın ilk ışıklarıyla dalından toplanan mevsim meyveleri. 🍎🍏 Kimyasal ilaçsız, dalında olgunlaşan gerçek meyve kokusu ve lezzeti! Haftalık taze gönderimler için arayın: 0532 373 96 05 🌿 #tazemeyve #bahcedensofraya #ilacsiztarim #koymahsulleri",
-    imageUrl: "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=800&q=80",
+    caption: "Bahçemizde sabahın ilk ışıklarıyla dalından toplanan taze mor erikler ve meyveler. 🍇🍎 Kimyasal ilaçsız, dalında olgunlaşan gerçek meyve kokusu ve lezzeti! Haftalık taze gönderimler için arayın: 0532 373 96 05 🌿 #tazeerik #tazemeyve #bahcedensofraya #ilacsiztarim #koymahsulleri",
+    imageUrl: "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=800&q=80",
     postUrl: "https://www.instagram.com/pinarlikdogalgida/",
     date: "Ağustos 2026",
     likes: 184,
     comments: 17,
-    tags: ["meyve", "bahçe", "tarım", "organik"]
+    tags: ["erik", "tazeerik", "bahçe", "tarım", "organik"]
   },
   {
     id: "post-6",
