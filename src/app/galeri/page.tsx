@@ -80,18 +80,18 @@ const STATIC_GALLERY_ITEMS: GalleryItem[] = [
     id: "g-honeycomb",
     title: "Doğal Karakovan Ham Petek Balı",
     category: "bal",
-    categoryLabel: "Petek Balı",
+    categoryLabel: "Ham Petek Balı",
     image: "/images/honeycomb_petek.jpg",
     description: "Yüksek yaylaların kekik ve çam ormanlarından sağılmış, arıların saf ördüğü şifalı ham petek balı.",
     instagramUrl: INSTAGRAM_PROFILE_URL
   },
   {
     id: "g-bal-kavanoz",
-    title: "Yayla Çiçek ve Çam Balı Kavanozları",
+    title: "Yayla Çiçek ve Çam Balı (Doğal Ham Bal)",
     category: "bal",
-    categoryLabel: "Saf Bal",
-    image: "/images/bal_kavanoz_ari.jpg",
-    description: "Isıl işlem görmemiş, saf ve doğal yayla balımız.",
+    categoryLabel: "Doğal Ham Bal",
+    image: "/images/honeycomb_petek.jpg",
+    description: "Isıl işlem görmemiş, saf peteğinden süzülmüş doğal yayla balımız.",
     instagramUrl: INSTAGRAM_PROFILE_URL
   },
   {
