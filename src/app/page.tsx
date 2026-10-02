@@ -28,7 +28,7 @@ export default function HomePage() {
             </div>
             <h2 className="section-title">En Çok Tercih Edilen 2 Temel Ürünümüz</h2>
             <p className="section-subtitle">
-              Pınarlık bahçemizin en meşhur mahsulleri: İnce kabuklu doğal cevizlerimiz (kabuklu veya ayıklanmış yemeye hazır kelebek iç) ve Ege güneşinde ağır ağır kurutulmuş kükürtsüz eriklerimiz.
+              Pınarlık bahçemizin en meşhur mahsulleri: Chetner cinsi ince kabuklu, içi bembeyaz doğal cevizlerimiz (kabuklu veya ayıklanmış yemeye hazır kelebek iç) ve Ege güneşinde ağır ağır kurutulmuş doğal eriklerimiz.
             </p>
           </div>
 
@@ -70,24 +70,20 @@ export default function HomePage() {
                   Denizli Pınarlık Bahçelerinden
                 </div>
                 <h3 style={{ fontSize: "1.6rem", color: "var(--primary-900)", margin: "6px 0 12px 0" }}>
-                  Doğal Ceviz (Kabuklu & Yemeye Hazır Kelebek İç)
+                  Doğal Ceviz (Chetner Cinsi - Kabuklu & Kelebek İç)
                 </h3>
                 <p style={{ color: "var(--text-muted)", fontSize: "0.95rem", lineHeight: 1.7, marginBottom: "18px" }}>
-                  Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, kolay kırılan kabuklu cevizlerimiz ile el emeğiyle kabuğundan ayıklanmış, bembeyaz <strong>kelebek bütün iç cevizlerimiz</strong>.
+                  Ağaçlarımızdan yeni hasat edilmiş Chetner cinsi, elle kolay kırılan (easy-open) ince kabuklu cevizlerimiz ile el emeğiyle kabuğundan ayıklanmış, içi bembeyaz <strong>kelebek bütün iç cevizlerimiz</strong>.
                 </p>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px", marginBottom: "22px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span><strong>Kelebek İç Seçenek:</strong> Kabuğundan ayıklanmış, tüketime hazır bütün iç</span>
+                    <span><strong>Kelebek İç Seçenek:</strong> Chetner cinsi, bembeyaz dolgun iç, yemeye hazır</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span><strong>Kabuklu Seçenek:</strong> İnce kabuklu, elle dahi kırılır, dolgun randıman</span>
-                  </div>
-                  <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
-                    <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span>Kimyasal ağartıcı veya klor kesinlikle kullanılmaz</span>
+                    <span><strong>Kabuklu Seçenek:</strong> İnce kabuklu, elle kolay kırılır (easy open), içi açık renkli</span>
                   </div>
                 </div>
 
@@ -156,17 +152,17 @@ export default function HomePage() {
                   Güneşte Kurutulmuş Doğal Erik
                 </h3>
                 <p style={{ color: "var(--text-muted)", fontSize: "0.95rem", lineHeight: 1.7, marginBottom: "18px" }}>
-                  Tam mevsiminde dalından toplanan eriklerimiz, hiçbir kimyasal kükürtleme işlemine tabi tutulmadan yalnızca temiz yayla havası ve güneşte kurutulur.
+                  Tam mevsiminde dalından toplanan eriklerimiz, yalnızca temiz yayla havası ve Ege güneşi altında geleneksel yöntemlerle kurutulur.
                 </p>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px", marginBottom: "22px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span><strong>Kükürtsüz (SO2 içermez):</strong> Doğal koyu renk ve saf lezzet</span>
+                    <span><strong>%100 Güneşte Kurutma:</strong> Doğal koyu renk ve saf lezzet</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
-                    <span><strong>İlave Şekersiz:</strong> Yalnızca meyvenin kendi doğal şekeri</span>
+                    <span><strong>Şekersiz:</strong> Yalnızca meyvenin kendi doğal şekeri</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.9rem" }}>
                     <CheckCircle2 size={16} color="var(--primary-600)" />
@@ -300,7 +296,7 @@ export default function HomePage() {
                 Güneşte Doğal Kurutma
               </h3>
               <p style={{ color: "var(--text-muted)", fontSize: "0.92rem", lineHeight: 1.6 }}>
-                Kimyasal kükürt fırınları veya yapay gazlar yerine Ege&apos;nin tertemiz güneşi ve yayla rüzgarında kurutulan saf lezzetler.
+                Yapay fırınlar veya kimyasal katkılar yerine Ege&apos;nin tertemiz güneşi ve yayla rüzgarında kurutulan saf lezzetler.
               </p>
             </div>
 

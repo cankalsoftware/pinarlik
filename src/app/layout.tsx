@@ -50,8 +50,8 @@ export const metadata: Metadata = {
     canonical: "https://www.pinarlik.com",
   },
   openGraph: {
-    title: "Pınarlık Doğal Gıda Ürünleri | Yerli Doğal Ceviz & Kuru Erik",
-    description: "Denizli Pınarlık'tan taze hasat ince kabuklu ceviz, kelebek iç ceviz, kükürtsüz güneşte kurutulmuş erik ve doğal bal. Sipariş & Bilgi: 0532 373 96 05.",
+    title: "Pınarlık Doğal Gıda Ürünleri | Chetner İnce Kabuklu Ceviz & Güneşte Kuru Erik",
+    description: "Denizli Pınarlık'tan yeni hasat Chetner cinsi ince kabuklu ceviz, içi bembeyaz kelebek iç ceviz, güneşte kurutulmuş doğal erik ve saf bal. Sipariş: 0532 373 96 05.",
     url: "https://www.pinarlik.com",
     siteName: "Pınarlık Doğal Gıda Ürünleri",
     locale: "tr_TR",

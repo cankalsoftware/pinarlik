@@ -9,8 +9,8 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     id: "faq-2",
-    question: "Cevizleriniz yerli mi, ithal mi? Kabuk ve iç kalitesi nasıldır?",
-    answer: "Tüm cevizlerimiz Denizli Pınarlık'taki kendi bahçelerimizde yetiştirdiğimiz %100 yerli cevizlerdir. İnce kabuklu yapısı sayesinde elle dahi kolayca kırılır. İç doluluk oranı yüksektir, beyaz/açık sarı renkli, lezzetli ve yağ oranı idealdir. İthal veya beklemiş ceviz kesinlikle satılmamaktadır.",
+    question: "Cevizlerinizin cinsi nedir? Kabuk ve iç kalitesi nasıldır?",
+    answer: "Tüm cevizlerimiz Denizli Pınarlık'taki kendi bahçelerimizde yetiştirdiğimiz %100 yerli Chetner (Chandler) cinsi cevizlerdir. İnce kabuklu yapısı sayesinde elle dahi çok kolay kırılır (easy-open). İçi bembeyaz, dolgun ve tatlı aromalıdır. İthal veya beklemiş ceviz kesinlikle satılmamaktadır.",
     category: "urunler"
   },
   {
@@ -21,8 +21,8 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     id: "faq-4",
-    question: "Kuru eriklerinizde kükürt veya şeker ilavesi var mı?",
-    answer: "Hayır, kuru eriklerimizde hiçbir kimyasal kükürtleme (koruyucu SO2) ve şeker ilavesi yapılmamaktadır. Eriklerimiz tam olgunluğunda toplanıp doğrudan Ege güneşi altında doğal yöntemlerle kurutulur. Koyu doğal rengi ve hafif mayhoş aroması buradan gelir.",
+    question: "Kuru erikleriniz nasıl kurutuluyor, katkı maddesi veya şeker ilavesi var mı?",
+    answer: "Hayır, kuru eriklerimizde hiçbir kimyasal koruyucu madde ve şeker ilavesi yapılmamaktadır. Eriklerimiz tam olgunluğunda dalından toplanıp doğrudan Ege güneşi ve temiz yayla havası altında doğal yöntemlerle kurutulur. Koyu doğal rengi ve hafif mayhoş aroması buradan gelir.",
     category: "kalite"
   },
   {

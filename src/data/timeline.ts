@@ -25,7 +25,7 @@ export const FARM_TIMELINE: TimelineMilestone[] = [
     id: "temmuz-agustos",
     period: "Temmuz - Ağustos",
     title: "Güneşte Olgunlaşma & Erik Hasadı",
-    description: "Yaz güneşinin sıcaklığıyla erikler tam şeker oranına ulaşır. Dalından toplanan erikler kükürtsüz sergilerde güneşte kurutulmaya başlanır. Arılarımız bal sağımı için çalışır.",
+    description: "Yaz güneşinin sıcaklığıyla erikler tam şeker oranına ulaşır. Dalından toplanan erikler doğal sergilerde Ege güneşi altında kurutulmaya başlanır. Arılarımız bal sağımı için çalışır.",
     status: "completed",
     tag: "Güneşte Kurutma",
     iconName: "Sun",

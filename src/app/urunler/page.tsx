@@ -41,7 +41,7 @@ export default function ProductsPage() {
             Pınarlık Doğal Ürünlerimiz
           </h1>
           <p style={{ color: "#cbd5e1", fontSize: "1.05rem", lineHeight: 1.7 }}>
-            Denizli Pınarlık bahçelerimizde geleneksel yöntemlerle yetiştirdiğimiz yeni sezon ince kabuklu ceviz, kelebek ayıklanmış iç ceviz, kükürtsüz kuru erik ve doğal bal çeşitlerimiz.
+            Denizli Pınarlık bahçelerimizde yetiştirdiğimiz yeni sezon Chetner cinsi ince kabuklu ceviz, bembeyaz kelebek iç ceviz, güneşte kurutulmuş doğal erik ve saf bal çeşitlerimiz.
           </p>
 
           <div style={{
@@ -191,9 +191,6 @@ export default function ProductsPage() {
             </div>
           </div>
         </div>
-
-        {/* AdSense Unit */}
-        <AdSenseBanner />
       </div>
     </div>
   );

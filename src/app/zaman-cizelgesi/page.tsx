@@ -64,10 +64,6 @@ export default function TimelinePage() {
           </div>
         </div>
       </section>
-
-      <div className="container">
-        <AdSenseBanner />
-      </div>
     </div>
   );
 }

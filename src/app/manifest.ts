@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Pınarlık Doğal Gıda Ürünleri",
     short_name: "Pınarlık Gıda",
-    description: "Denizli Pınarlık'tan yerli doğal ceviz, kelebek iç ceviz, kükürtsüz güneşte kurutulmuş erik ve doğal bal.",
+    description: "Denizli Pınarlık'tan Chetner cinsi yerli doğal ceviz, kelebek iç ceviz, güneşte kurutulmuş doğal erik ve saf bal.",
     start_url: "/",
     display: "standalone",
     background_color: "#fbf9f5",

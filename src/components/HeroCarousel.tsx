@@ -20,7 +20,7 @@ const HERO_SLIDES: HeroSlide[] = [
   {
     id: 1,
     title: "Pınarlık Doğal Gıda Ürünleri",
-    subtitle: "Denizli Pınarlık'ın bereketli topraklarından ince kabuklu ceviz, ayıklanmış kelebek iç ceviz ve güneşte kurutulmuş doğal erik.",
+    subtitle: "Denizli Pınarlık'ın bereketli topraklarından Chetner cinsi ince kabuklu ceviz, içi bembeyaz ayıklanmış kelebek iç ceviz ve güneşte kurutulmuş doğal erik.",
     tagline: "Doğrudan Bahçemizden • Katkısız & Yerli Üretim",
     badge: "Orijinal Pınarlık Mahsulleri",
     image: "/images/ceviz3_l.jpg",
@@ -29,10 +29,10 @@ const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 2,
-    title: "Yeni Sezon Doğal İnce Kabuklu & İç Ceviz",
-    subtitle: "Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, elle kolay kırılan dolgun cevizlerimiz ve yemeye hazır kelebek iç cevizlerimiz.",
-    tagline: "100% Yerli • İlaçsız ve Kimyasalsız Geleneksel Tarım",
-    badge: "2026 Yeni Sezon Ceviz Hasadı",
+    title: "Chetner Cinsi İnce Kabuklu & Kelebek İç Ceviz",
+    subtitle: "Ağaçlarımızdan yeni hasat edilmiş, ince kabuklu, elle kolay kırılan (easy-open), içi bembeyaz dolgun cevizlerimiz ve yemeye hazır kelebek iç cevizlerimiz.",
+    tagline: "Chetner Cinsi • Elle Kolay Kırılır • İçi Bembeyaz",
+    badge: "2026 Yeni Sezon Chetner Ceviz Hasadı",
     image: "/images/ic_ceviz_kelebek.jpg",
     primaryCtaText: "Ceviz Çeşitlerini İncele",
     primaryCtaLink: "/urunler#kelebek-ic-ceviz"
@@ -40,8 +40,8 @@ const HERO_SLIDES: HeroSlide[] = [
   {
     id: 3,
     title: "Güneşte Kurutulmuş Katkısız Doğal Erik",
-    subtitle: "Ege güneşi altında kükürtsüz ve ilave şekersiz doğal kurutulmuş, yoğun lezzetli ve lif zengini bahçe eriklerimiz.",
-    tagline: "Katkısız • Kükürtsüz (SO2 İçermez) • Şeker İlavesiz",
+    subtitle: "Ege güneşi altında ve temiz yayla havasında doğal kurutulmuş, şekersiz, yoğun lezzetli ve lif zengini bahçe eriklerimiz.",
+    tagline: "Katkısız • %100 Güneşte Kurutma • Şekersiz",
     badge: "Geleneksel Güneşte Kurutma",
     image: "/images/kuru_erik_dogal.jpg",
     primaryCtaText: "Kuru Erik Detayları",
@@ -233,7 +233,7 @@ export default function HeroCarousel() {
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
               <ShieldCheck size={18} color="#52b788" />
-              <span>Kükürtsüz Güneşte Kurutma</span>
+              <span>Güneşte Doğal Kurutma</span>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
               <ShieldCheck size={18} color="#52b788" />

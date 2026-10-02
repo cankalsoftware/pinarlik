@@ -285,8 +285,6 @@ export default function ContactPage() {
               />
             </div>
           </div>
-
-          <AdSenseBanner />
         </div>
       </section>
     </div>

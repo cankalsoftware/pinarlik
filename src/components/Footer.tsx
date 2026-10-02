@@ -196,11 +196,6 @@ export default function Footer() {
               <li>
                 <Link href="/iletisim" style={{ color: "#94a3b8", fontSize: "0.92rem" }}>İletişim & Sipariş Talebi</Link>
               </li>
-              <li>
-                <Link href="/indexnow" style={{ color: "#d4a373", fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "4px" }}>
-                  <span>IndexNow & AEO/GEO İndeksleme</span>
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -314,10 +309,27 @@ export default function Footer() {
             © {new Date().getFullYear()} Pınarlık Doğal Gıda Ürünleri. Tüm hakları saklıdır.
           </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "14px", flexWrap: "wrap" }}>
             <span>Denizli Pınarlık Köy Mahsulleri</span>
             <span>•</span>
             <span>Tel: 0532 373 96 05</span>
+            <span>•</span>
+            <span>
+              Yazılım:{" "}
+              <a
+                href="https://cankalsoftware.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "#d4a373",
+                  textDecoration: "underline",
+                  textUnderlineOffset: "3px",
+                  fontWeight: 600
+                }}
+              >
+                cankalsoftware.com
+              </a>
+            </span>
           </div>
         </div>
       </div>

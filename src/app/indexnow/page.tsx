@@ -266,10 +266,6 @@ export default function IndexNowPage() {
               <ArrowRight size={16} />
             </Link>
           </div>
-
-          <div style={{ marginTop: "40px" }}>
-            <AdSenseBanner />
-          </div>
         </div>
       </section>
     </div>

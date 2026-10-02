@@ -66,7 +66,7 @@ export default function AboutPage() {
                 </div>
                 <div style={{ padding: "16px", backgroundColor: "#ffffff", borderRadius: "14px", border: "1px solid var(--border-light)" }}>
                   <div style={{ fontSize: "1.8rem", fontWeight: 800, color: "var(--accent-amber)" }}>0%</div>
-                  <div style={{ fontSize: "0.88rem", color: "var(--text-muted)", marginTop: "4px" }}>Kimyasal & Kükürt</div>
+                  <div style={{ fontSize: "0.88rem", color: "var(--text-muted)", marginTop: "4px" }}>Katkı & Koruyucu</div>
                 </div>
               </div>
 
@@ -159,7 +159,7 @@ export default function AboutPage() {
                 <div>
                   <h4 style={{ fontSize: "1.1rem", color: "var(--primary-900)", marginBottom: "6px" }}>İlaçsız & Katkısız</h4>
                   <p style={{ color: "var(--text-muted)", fontSize: "0.9rem", lineHeight: 1.6 }}>
-                    Ağaçlarımıza ve mahsullerimize sentetik hormon, klor veya kimyasal ağartıcı temas ettirmiyoruz.
+                    Ağaçlarımıza ve mahsullerimize sentetik hormon veya yapay kimyasal katkılar temas ettirmiyoruz.
                   </p>
                 </div>
               </div>
@@ -209,8 +209,6 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-
-          <AdSenseBanner />
         </div>
       </section>
     </div>

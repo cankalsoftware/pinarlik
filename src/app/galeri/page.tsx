@@ -55,7 +55,7 @@ const STATIC_GALLERY_ITEMS: GalleryItem[] = [
     category: "erik",
     categoryLabel: "Kuru Erik",
     image: "/images/kuru_erik_dogal.jpg",
-    description: "Hiçbir kükürtleme (SO2) ve koruyucu madde olmadan, yalnızca yayla güneşi ve temiz havada kuruyan eriklerimiz.",
+    description: "Hiçbir koruyucu madde olmadan, yalnızca yayla güneşi ve tertemiz dağ havasında kuruyan eriklerimiz.",
     instagramUrl: INSTAGRAM_PROFILE_URL
   },
   {
@@ -485,8 +485,6 @@ export default function GalleryPage() {
               </div>
             </div>
           )}
-
-          <AdSenseBanner />
         </div>
       </section>
 

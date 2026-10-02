@@ -46,13 +46,13 @@ export const INSTAGRAM_POSTS: InstagramPost[] = [
   },
   {
     id: "post-kuru-erik",
-    caption: "Kükürtsüz, katkısız, güneşte ağır ağır kuruyan doğal eriklerimiz! ☀️ Eriklerimizin o koyu doğal rengi ve yoğun lezzeti tamamen Ege güneşinin hediyesi. Katkısız kış hazırlığı için hemen arayın: 0532 373 96 05 🍇 #kuruerik #gunestekurutma #sekersiz #antioksidan #pinarlik",
+    caption: "Katkısız, şekersiz, güneşte ağır ağır kuruyan doğal eriklerimiz! ☀️ Eriklerimizin o koyu doğal rengi ve yoğun lezzeti tamamen Ege güneşinin hediyesi. Katkısız kış hazırlığı için hemen arayın: 0532 373 96 05 🍇 #kuruerik #gunestekurutma #sekersiz #antioksidan #pinarlik",
     imageUrl: "/images/kuru_erik_dogal.jpg",
     postUrl: "https://www.instagram.com/pinarlik_dogal_gida_urunleri/",
     date: "Eylül 2026",
     likes: 465,
     comments: 53,
-    tags: ["kuruerik", "geleneksel", "organik", "sağlık", "kükürtsüz"]
+    tags: ["kuruerik", "geleneksel", "organik", "sağlık", "doğal"]
   },
   {
     id: "post-ceviz-agaclari",
