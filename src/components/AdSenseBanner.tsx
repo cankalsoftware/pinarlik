@@ -30,14 +30,9 @@ export default function AdSenseBanner({
     <div
       className={`adsense-wrapper ${className}`}
       style={{
-        margin: "24px 0",
+        margin: "16px 0",
         textAlign: "center",
-        overflow: "hidden",
-        minHeight: "90px",
-        backgroundColor: "rgba(0,0,0,0.02)",
-        borderRadius: "12px",
-        padding: "8px",
-        border: "1px dashed var(--border-light)"
+        overflow: "hidden"
       }}
     >
       <ins

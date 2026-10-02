@@ -409,11 +409,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* AdSense Unit placement */}
-      <div className="container">
-        <AdSenseBanner />
-      </div>
     </>
   );
 }
