@@ -59,6 +59,7 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
+  background-color: var(--bg-darker);
 }
 
 body {
@@ -69,6 +70,34 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1 0 auto;
+  background-color: var(--bg-main);
+  width: 100%;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-bottom: 0 !important;
+}
+
+/* AdSense Whitespace & Auto-Ad Management */
+ins.adsbygoogle[data-ad-status="unfilled"],
+.adsense-wrapper:has(ins.adsbygoogle[data-ad-status="unfilled"]) {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+google-auto-placed,
+.google-auto-placed {
+  margin: 0 !important;
 }
 
 /* Typography Utility */
