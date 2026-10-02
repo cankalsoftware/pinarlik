@@ -158,8 +158,8 @@ export const PRODUCTS: Product[] = [
     packagingTypes: ["1 Kg Bez Torba (Tarhana)", "1 Kg Cam Şişe (Pekmez)"],
     storageTips: "Kuru ve serin yerde, doğrudan ışıktan uzakta saklayınız.",
     images: [
-      "/images/sera_l.jpg",
-      "/images/goji2_l.jpg"
+      "/images/tarhana_pekmez.jpg",
+      "/images/sera_l.jpg"
     ],
     isFeatured: false,
     orderNotes: "Kiler ürünlerimiz sınırlı miktarda hazırlanmaktadır. Lütfen telefonla stok sorunuz."

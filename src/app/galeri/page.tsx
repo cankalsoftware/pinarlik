@@ -111,6 +111,15 @@ const STATIC_GALLERY_ITEMS: GalleryItem[] = [
     image: "/images/goji2_l.jpg",
     description: "Pınarlık bahçemizde doğanın ritmiyle yetişen zengin vitaminli meyvelerimiz.",
     instagramUrl: INSTAGRAM_PROFILE_URL
+  },
+  {
+    id: "g-tarhana-pekmez",
+    title: "Geleneksel Ev Tarhanası & Doğal Üzüm Pekmezi",
+    category: "bahce",
+    categoryLabel: "Köy Kileri",
+    image: "/images/tarhana_pekmez.jpg",
+    description: "Köyümüzün kadınları tarafından bol köy yoğurdu ve taze sebzelerle yoğrulan ev tarhanası ve odun ateşinde pişirilen doğal pekmezimiz.",
+    instagramUrl: INSTAGRAM_PROFILE_URL
   }
 ];
 
